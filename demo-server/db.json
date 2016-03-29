@@ -98,7 +98,7 @@
       "selected": false
     },
     {
-      "firstName": "Billy",
+      "firstName": "Billy ",
       "lastName": "Stavroulakis",
       "type": "teacher",
       "username": "bill",
@@ -106,7 +106,7 @@
       "id": 4,
       "selected": false,
       "userId": 1,
-      "status": "Active"
+      "status": "Inactive"
     }
   ]
 }

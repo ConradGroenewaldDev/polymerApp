@@ -29,6 +29,7 @@ server.use(function(req, res, next) {
     }
 });
 
+
 server.post('/auth/login', function(req, res){
     var users = router.db.object.users;
     var username = req.query.username;
@@ -41,6 +42,18 @@ server.post('/auth/login', function(req, res){
         }
     }
     res.send(JSON.stringify({ success: false, error: 'Wrong username or password' }));
+});
+
+server.get('/profile', function(req,res){
+    var userID = req.signedCookies.usersession;
+    var users = router.db.object.profiles;
+    for(var i=0;i<=users.length -1;i++){
+        if(users[i].userId == userID){
+            res.send(JSON.stringify(users[i]));
+            return;
+        }
+    }
+    res.send();
 });
 
 app.get('/', function(req, res){
