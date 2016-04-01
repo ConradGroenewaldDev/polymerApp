@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4897d56-763f-4b82-8825-7a8f5e8cfea6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/pd-select/pd-select.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/pd-select/pd-select.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/pages/profile/profile-edit.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/components/pd-flatiron-directory/director/LICENSE" afterPath="$PROJECT_DIR$/app/components/pd-flatiron-director/director/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/components/pd-flatiron-directory/director/director.min.js" afterPath="$PROJECT_DIR$/app/components/pd-flatiron-director/director/director.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/components/pd-flatiron-directory/pd-flatiron-directory.html" afterPath="$PROJECT_DIR$/app/components/pd-flatiron-director/pd-flatiron-director.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/pd-card/pd-card.html" afterPath="$PROJECT_DIR$/app/components/pd-card/pd-card.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/pages/profile/profile.html" afterPath="$PROJECT_DIR$/app/pages/profile/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-server/app.js" afterPath="$PROJECT_DIR$/demo-server/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-server/db.json" afterPath="$PROJECT_DIR$/demo-server/db.json" />
-    </list>
+    <list default="true" id="e4897d56-763f-4b82-8825-7a8f5e8cfea6" name="Default" comment="" />
     <ignored path="polymerApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +34,7 @@
       <file leaf-file-name="profile-edit.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/pages/profile/profile-edit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2673522">
+            <state vertical-scroll-proportion="0.3856041">
               <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="60" />
               <folding />
             </state>
@@ -192,8 +180,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="722" />
-    <option name="width" value="718" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -517,10 +504,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="722" y="0" width="718" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35724533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17547569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -872,7 +859,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/pages/profile/profile-edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2673522">
+        <state vertical-scroll-proportion="0.3856041">
           <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="60" />
           <folding />
         </state>

@@ -98,15 +98,15 @@
       "selected": false
     },
     {
-      "firstName": "Billy ",
+      "firstName": "Bill",
       "lastName": "Stavroulakis",
-      "type": "teacher",
+      "type": "itadmin",
       "username": "bill",
       "active": "Inactive",
       "id": 4,
       "selected": false,
       "userId": 1,
-      "status": "Inactive"
+      "status": "Active"
     }
   ]
 }
