@@ -1,0 +1,184 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.7.3
+3 info using node@v5.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData gulp-minify-html
+20 silly mapToRegistry name gulp-minify-html
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+24 silly fetchNamedPackageData gulp-minfy-inline
+25 silly mapToRegistry name gulp-minfy-inline
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/gulp-minfy-inline
+29 verbose request uri https://registry.npmjs.org/gulp-minify-html
+30 verbose request no auth needed
+31 info attempt registry request try #1 at 8:34:32 PM
+32 verbose request id 21545fb0dead74d8
+33 verbose etag "23DDBE8B3B0YP770TCG5LMJZS"
+34 http request GET https://registry.npmjs.org/gulp-minify-html
+35 verbose request uri https://registry.npmjs.org/gulp-minfy-inline
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 8:34:32 PM
+38 http request GET https://registry.npmjs.org/gulp-minfy-inline
+39 http 304 https://registry.npmjs.org/gulp-minify-html
+40 verbose headers { date: 'Sun, 03 Apr 2016 19:34:33 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   etag: '"23DDBE8B3B0YP770TCG5LMJZS"',
+40 verbose headers   age: '0',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+40 verbose headers   'x-cache': 'HIT',
+40 verbose headers   'x-cache-hits': '1',
+40 verbose headers   'x-timer': 'S1459712073.119875,VS0,VE87',
+40 verbose headers   vary: 'Accept' }
+41 silly get cb [ 304,
+41 silly get   { date: 'Sun, 03 Apr 2016 19:34:33 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     etag: '"23DDBE8B3B0YP770TCG5LMJZS"',
+41 silly get     age: '0',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-lhr6332-LHR',
+41 silly get     'x-cache': 'HIT',
+41 silly get     'x-cache-hits': '1',
+41 silly get     'x-timer': 'S1459712073.119875,VS0,VE87',
+41 silly get     vary: 'Accept' } ]
+42 verbose etag https://registry.npmjs.org/gulp-minify-html from cache
+43 verbose get saving gulp-minify-html to /Users/conradnoah/.npm/registry.npmjs.org/gulp-minify-html/.cache.json
+44 verbose correctMkdir /Users/conradnoah/.npm correctMkdir not in flight; initializing
+45 http 404 https://registry.npmjs.org/gulp-minfy-inline
+46 verbose headers { 'content-type': 'application/json',
+46 verbose headers   'cache-control': 'max-age=0',
+46 verbose headers   'content-length': '2',
+46 verbose headers   'accept-ranges': 'bytes',
+46 verbose headers   date: 'Sun, 03 Apr 2016 19:34:33 GMT',
+46 verbose headers   via: '1.1 varnish',
+46 verbose headers   age: '0',
+46 verbose headers   connection: 'keep-alive',
+46 verbose headers   'x-served-by': 'cache-lhr6321-LHR',
+46 verbose headers   'x-cache': 'MISS',
+46 verbose headers   'x-cache-hits': '0',
+46 verbose headers   'x-timer': 'S1459712073.118805,VS0,VE90' }
+47 silly get cb [ 404,
+47 silly get   { 'content-type': 'application/json',
+47 silly get     'cache-control': 'max-age=0',
+47 silly get     'content-length': '2',
+47 silly get     'accept-ranges': 'bytes',
+47 silly get     date: 'Sun, 03 Apr 2016 19:34:33 GMT',
+47 silly get     via: '1.1 varnish',
+47 silly get     age: '0',
+47 silly get     connection: 'keep-alive',
+47 silly get     'x-served-by': 'cache-lhr6321-LHR',
+47 silly get     'x-cache': 'MISS',
+47 silly get     'x-cache-hits': '0',
+47 silly get     'x-timer': 'S1459712073.118805,VS0,VE90' } ]
+48 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-minfy-inline
+48 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+48 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+48 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+48 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+48 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+48 silly fetchPackageMetaData     at Request.emit (events.js:185:7)
+48 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+48 silly fetchPackageMetaData     at emitOne (events.js:95:20)
+48 silly fetchPackageMetaData     at Request.emit (events.js:182:7)
+48 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+48 silly fetchPackageMetaData  error for gulp-minfy-inline@~0.1.1 { [Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-minfy-inline] pkgid: 'gulp-minfy-inline', statusCode: 404, code: 'E404' }
+49 silly resolveWithNewModule gulp-minify-html@1.0.6 checking installable status
+50 silly cache add args [ 'gulp-minify-html@~1.0.2', null ]
+51 verbose cache add spec gulp-minify-html@~1.0.2
+52 silly cache add parsed spec Result {
+52 silly cache add   raw: 'gulp-minify-html@~1.0.2',
+52 silly cache add   scope: null,
+52 silly cache add   name: 'gulp-minify-html',
+52 silly cache add   rawSpec: '~1.0.2',
+52 silly cache add   spec: '>=1.0.2 <1.1.0',
+52 silly cache add   type: 'range' }
+53 silly addNamed gulp-minify-html@>=1.0.2 <1.1.0
+54 verbose addNamed ">=1.0.2 <1.1.0" is a valid semver range for gulp-minify-html
+55 silly addNameRange { name: 'gulp-minify-html',
+55 silly addNameRange   range: '>=1.0.2 <1.1.0',
+55 silly addNameRange   hasData: false }
+56 silly mapToRegistry name gulp-minify-html
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/gulp-minify-html
+60 verbose addNameRange registry:https://registry.npmjs.org/gulp-minify-html not in flight; fetching
+61 verbose get https://registry.npmjs.org/gulp-minify-html not expired, no request
+62 silly addNameRange number 2 { name: 'gulp-minify-html',
+62 silly addNameRange   range: '>=1.0.2 <1.1.0',
+62 silly addNameRange   hasData: true }
+63 silly addNameRange versions [ 'gulp-minify-html',
+63 silly addNameRange   [ '0.0.1',
+63 silly addNameRange     '0.1.0',
+63 silly addNameRange     '0.1.1',
+63 silly addNameRange     '0.1.2',
+63 silly addNameRange     '0.1.3',
+63 silly addNameRange     '0.1.4',
+63 silly addNameRange     '0.1.5',
+63 silly addNameRange     '0.1.6',
+63 silly addNameRange     '0.1.7',
+63 silly addNameRange     '0.1.8',
+63 silly addNameRange     '1.0.0',
+63 silly addNameRange     '1.0.1',
+63 silly addNameRange     '1.0.2',
+63 silly addNameRange     '1.0.3',
+63 silly addNameRange     '1.0.4',
+63 silly addNameRange     '1.0.5',
+63 silly addNameRange     '1.0.6' ] ]
+64 silly addNamed gulp-minify-html@1.0.6
+65 verbose addNamed "1.0.6" is a plain semver version for gulp-minify-html
+66 silly cache afterAdd gulp-minify-html@1.0.6
+67 verbose afterAdd /Users/conradnoah/.npm/gulp-minify-html/1.0.6/package/package.json not in flight; writing
+68 verbose correctMkdir /Users/conradnoah/.npm correctMkdir not in flight; initializing
+69 verbose afterAdd /Users/conradnoah/.npm/gulp-minify-html/1.0.6/package/package.json written
+70 silly rollbackFailedOptional Starting
+71 silly rollbackFailedOptional Finishing
+72 silly runTopLevelLifecycles Starting
+73 silly runTopLevelLifecycles Finishing
+74 silly install printInstalled
+75 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-minfy-inline
+75 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+75 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+75 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+75 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:199:22)
+75 verbose stack     at emitTwo (events.js:100:13)
+75 verbose stack     at Request.emit (events.js:185:7)
+75 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+75 verbose stack     at emitOne (events.js:95:20)
+75 verbose stack     at Request.emit (events.js:182:7)
+75 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:963:12)
+76 verbose statusCode 404
+77 verbose pkgid gulp-minfy-inline
+78 verbose cwd /Users/conradnoah/Desktop/polymerApp/demo-server
+79 error Darwin 15.3.0
+80 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+81 error node v5.6.0
+82 error npm  v3.7.3
+83 error code E404
+84 error 404 Registry returned 404 for GET on https://registry.npmjs.org/gulp-minfy-inline
+85 error 404
+86 error 404 'gulp-minfy-inline' is not in the npm registry.
+87 error 404 You should bug the author to publish it (or use the name yourself!)
+88 error 404 It was specified as a dependency of 'PolymerApp'
+89 error 404 Note that you can also install from a
+90 error 404 tarball, folder, http url, or git url.
+91 verbose exit [ 1, true ]

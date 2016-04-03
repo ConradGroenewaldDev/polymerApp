@@ -107,6 +107,14 @@
       "selected": false,
       "userId": 1,
       "status": "Active"
+    },
+    {
+      "firstName": "Conrad",
+      "lastName": "",
+      "type": "itadmin",
+      "active": "Active",
+      "username": "Conrad",
+      "id": 5
     }
   ]
 }
