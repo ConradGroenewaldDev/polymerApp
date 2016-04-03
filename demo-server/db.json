@@ -90,12 +90,13 @@
     {
       "firstName": "Joy",
       "lastName": "Johnson",
-      "type": "principle",
+      "type": "teacher",
       "username": "joy",
       "active": "Inactive",
       "id": 2,
       "userId": 2,
-      "selected": false
+      "selected": false,
+      "status": "Inactive"
     },
     {
       "firstName": "Bill",
@@ -115,6 +116,13 @@
       "active": "Active",
       "username": "Conrad",
       "id": 5
+    },
+    {
+      "firstName": "kdjbcv.k",
+      "lastName": "",
+      "type": "",
+      "active": "",
+      "id": 6
     }
   ]
 }
